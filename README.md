@@ -1,7 +1,7 @@
 # Retail Business Performance & Profitability Analysis
 
 
-📅 Day 1 — Data Loading & Setup
+📅  — Data Loading & Setup
 
 Collected the retail dataset (superstore.csv)
 
@@ -11,7 +11,7 @@ Verified database connection and table creation using Python (sqlite3, pandas)
 
 Ensured data was properly inserted into the sales table
 
-🧹 Day 2 — Data Cleaning & Preprocessing
+🧹 — Data Cleaning & Preprocessing
 
 Checked for missing values across all columns using SQL
 
@@ -25,7 +25,7 @@ Replaced the SQL table with the cleaned dataset (updated sales table)
 
 Re-validated the table by reloading from SQLite
 
-📈 Day 3 — Exploratory Data Analysis (EDA)
+📈  — Exploratory Data Analysis (EDA)
 
 Performed univariate, bivariate, and correlation analysis
 
@@ -56,3 +56,43 @@ Consumer segment is most profitable
 Discounts negatively correlate with profit
 
 Sales and profit grow steadily year-by-year
+
+📊  — Power BI Dashboard Development
+
+Connected retail.db to Power BI using the SQLite connector
+
+Cleaned and formatted data inside Power BI for reporting
+
+Created the following visualizations:
+
+📦 Sales by Category (Bar Chart)
+
+🌎 Profit by Region (Bar / Map)
+
+👥 Sales by Segment (Pie Chart)
+
+📅 Yearly Sales Trend (Line Chart)
+
+💸 Profit vs Discount (Scatter Plot)
+
+🏆 Top 10 Products by Sales (Bar Chart)
+
+Added slicers for:
+
+Category
+
+Region
+
+Segment
+
+Designed and formatted an interactive dashboard with:
+
+Clear titles
+
+Consistent colors
+
+Proper labels
+
+Filters for easy data exploration
+
+Exported dashboard insights into a summary for reporting
